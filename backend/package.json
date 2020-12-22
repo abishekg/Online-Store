@@ -27,7 +27,7 @@
   },
   "license": "MIT",
   "repository": {
-    "url": "wesbos.com"
+    "url": "https://github.com/abishekg/Online-Store.git"
   },
   "babel": {
     "presets": [
