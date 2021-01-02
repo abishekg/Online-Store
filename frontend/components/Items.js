@@ -3,6 +3,7 @@ import {Query} from 'react-apollo';
 import gql from 'graphql-tag';
 import styled from 'styled-components';
 import Item from './Item';
+
 const ALL_ITEMS_QUERY = gql`
     query ALL_ITEMS_QUERY {
         items {
@@ -45,3 +46,4 @@ class Items extends Component {
 }
 
 export default Items;
+export {ALL_ITEMS_QUERY};
